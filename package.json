@@ -3,12 +3,18 @@
     "registry": "https://registry.npmjs.org/"
   },
   "name": "whistle.urlcombo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HTTP URL version of Combo plugin for Whistle.",
   "main": "./lib/index.js",
   "files": [
     "lib"
   ],
+  "whistleConfig": {
+    "hintList": [
+      "??:,",
+      "combine:,"
+    ]
+  },
   "scripts": {
     "dev": "tsc -w",
     "build": "tsc"
