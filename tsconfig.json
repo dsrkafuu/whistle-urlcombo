@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "module": "CommonJS",
+    "target": "ES6",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "Node"
+  },
+  "include": ["./src"]
+}
